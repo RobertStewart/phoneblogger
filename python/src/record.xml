@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Say>Speak your tweet and then press star.</Say>
+    <Record
+        action="{{ postprefix }}tweet"
+        method="POST"
+        maxLength="60"
+        finishOnKey="*"
+        />
+    <Say>Why so quiet? Speak up.</Say>
+</Response>
