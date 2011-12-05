@@ -1,0 +1,5 @@
+*.prefs
+*.project
+*.pyc
+*.pydevproject
+python/src/auth_config.py
